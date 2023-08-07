@@ -1,0 +1,144 @@
+
+/* ESTILOS DEL HEADER */
+header{
+    background-color: #EAC926;
+    margin-top: 0%
+}
+.fas.fa-search{
+    color: black;
+    
+}
+
+.fas.fa-hand-holding-usd{
+    color: black;
+    display: inline;
+}
+primer-titulo{
+    font-family: roboto;
+    font-size: 15px;
+    color: black;
+    display: inline;
+}
+
+.far.fa-id-card{
+    color: black;
+}
+
+.fas.fa-sign-in-alt{
+    color: black;
+}
+
+.fas.fa-shopping-basket{
+    color: black;
+}
+body{
+    font-family: roboto;
+    font-size: 15px;
+    background-color: white
+}
+.burger-menu button{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    justify-content: center;
+}
+/* ESTILOS DEL MAIN */
+main{
+    width: 90vw;
+    background-color: #ebebeb;
+}
+.titulos-de-main{
+    color: grey;
+    text-align: left;
+    background-color: #ebebeb;
+}
+.titulo-e-imagen{
+    background-color: #ebebeb;
+}
+.vistas{
+    background-color: #ebebeb;
+}
+.fas.fa-truck{
+    color: green;
+}
+.descripcion-main{
+    width: 90%;
+    border-top: 1px solid #ebebeb;
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 1px;
+}
+.secciones{
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+
+
+h2{
+    font-size: 24px;
+}
+
+#precio{
+    font-size: 18px;
+}
+
+#oferta{
+    font-size: 16px;
+}
+#descripciones{
+    font-size: 16px;
+}
+#buscar{
+    background-color: white;
+    padding: 6px;
+    margin: 6px;
+}
+/* ESTILOS DEL FOOTER*/
+footer{
+    background-color: white;
+    font-family: roboto;
+    font-size: 15px;
+}
+
+#titulos-de-footer{
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.textos-de-footer{
+    text-align: center;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 4em;
+}
+
+#Copyright{
+    text-align: left;
+    color: gray;
+}
+
+.fas.fa-credit-card{
+    margin-top: 40px;
+    font-size: 2em;
+    color: blue;
+    margin-left: 160px
+}
+
+.fas.fa-gift{
+    margin-top: 40px;
+    font-size: 2em;
+    color: blue;
+    margin-left: 160px
+}
+
+.fas.fa-user-shield{
+    margin-top: 40px;
+    font-size: 2em;
+    color: blue;
+    margin-left: 160px
+}
