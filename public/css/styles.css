@@ -18,7 +18,8 @@
     right: 20px;
     top: -15px;
 }
-.logo{
+
+.logo {
     width: 200px;
 }
 
@@ -47,12 +48,14 @@ header {
 .listas {
     display: none;
 }
+
 .listas ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.listas a{
+
+.listas a {
     text-decoration: none;
     color: #222222;
     display: inline-block;
@@ -112,17 +115,26 @@ main {
     margin-bottom: 2.5vh;
 }
 
-.contenedor-mgs {
-    text-align: center;
-
+.contenedor-de-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.mgs-productos {
-    width: 90%;
+.productos {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 300px;
+    margin: 10px;
+}
+.precio-oferta {
+    display: flex;
 }
 
-.camioncito {
-    color: #39b54a;
+.fa-truck {
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -134,55 +146,46 @@ main {
     position: absolute;
     right: 20px;
     top: -15px;
+    color: #39b54a;
 }
-
-.secciones {
-    display: block;
-    background-color: white;
-    margin: 0% auto 10px;
-    width: 90%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-
-.descripcion-main {
-    text-align: left;
-    border-top: 1px solid #ebebeb;
-    padding-left: 10px;
-    background-color: white;
+.camioncito-caja {
     position: relative;
+}
+
+.productos-top {
+    text-align: center;
+}
+.productos-bottom {
+    margin-top: 20px;
+}
+.contenedor-mgs {
+    text-align: center;
+}
+
+.mgs-productos {
+    width: 90%;
 }
 
 h2 {
     font-size: 24px;
 }
-
 #precio {
     width: 30%;
     font-size: 18px;
-    text-align: center;
 }
 
 #oferta {
     width: 70%;
     font-size: 16px;
     color: green;
+    
 }
-.price-discounts{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: flex;
-}
+
 
 #descripciones {
     margin-top: 10px;
     font-size: 16px;
     color: grey;
-}
-
-#buscar {
-    background-color: white;
-    padding: 6px;
-    margin: 6px;
 }
 
 /* ESTILOS DEL FOOTER*/
@@ -247,44 +250,52 @@ h2 {
     #descripciones {
         display: none;
     }
-    
-    .header-top-bar{
+
+    .header-top-bar {
         display: flex;
         justify-content: space-between;
     }
-    
-    .primer-titulo{
+
+    .primer-titulo {
         max-width: 300px;
         text-align: right;
     }
+
     .hamburguer-button {
         display: none;
     }
+
     .listas {
         display: flex;
         justify-content: space-between;
     }
-    .listas ul{
+
+    .listas ul {
         display: flex;
     }
-    .listas li{
+
+    .listas li {
         margin: 0px 5px;
     }
-    .listas{
+
+    .listas {
         margin-top: 40px;
     }
-    .header-top-bar, .listas{
+
+    .header-top-bar,
+    .listas {
         align-items: center;
     }
-   
+
 }
 
-@media (min-width: 361px){
-    .articulos-main-top{
-      display: flex;
-      justify-content: space-between;
+@media (min-width: 361px) {
+    .articulos-main-top {
+        display: flex;
+        justify-content: space-between;
     }
-    .secciones{
+
+    .secciones {
         flex-grow: 0.50;
     }
 }

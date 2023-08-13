@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" alt="Logo mercado liebre" class="logo">
+            <div><input type="text" id="buscar" placeholder="Buscar productos, marcas, etc">
+                <button><i class="fas fa-search"></i> </button>
+            </div>
+            <div class="home-contenedor">
+                <p class="primer-titulo"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
+                    crédito</p>
+            </div>
+        </div>
+
+        <a href="" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav class="listas">
+            <ul>
+                <li><a href="/Ofertas">Ofertas</a></li>
+                <li><a href="/Tiendas">Tiendas oficiales</a></li>
+                <li><a href="/Venta">Vender</a></li>
+                <li><a href="/Ayuda">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/Usuario">Crea tu cuenta</a> <i class="far fa-id-card"></i></li>
+                <li><a href="/Ingresá">Ingresá</a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="/Mis compras">Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <form action="/crear-producto" method="POST">
+        <div>
+            <label>Nombre y apellido</label>
+            <input type="text" name="nombre-real" id="">
+        </div>
+        <div>
+            <label>Nombre de usuario</label>
+            <input type="text" name="nombre-usuario" id="">
+        </div>
+    </form>
+</body>
+</html>
